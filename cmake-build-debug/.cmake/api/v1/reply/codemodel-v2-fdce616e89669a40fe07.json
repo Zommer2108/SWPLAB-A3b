@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.19"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SWPLAB-A3b",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SWPLAB-A3b::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SWPLAB-A3b-Debug-2d85b7ac18cf3bf744c7.json",
+					"name" : "SWPLAB-A3b",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug",
+		"source" : "D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SWPLAB-A3b"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SWPLAB-A3b">
+				<Option output="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/SWPLAB-A3b.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 SWPLAB-A3b"/>
+					<CompileFile command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SWPLAB-A3b/fast">
+				<Option output="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/SWPLAB-A3b.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 SWPLAB-A3b/fast"/>
+					<CompileFile command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/IDEs/JetBrains/CLion 2022.2.4/bin/mingw/bin/mingw32-make.exe -f &quot;D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/src/ast.cpp">
+			<Option target="SWPLAB-A3b"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/src/ast.h">
+			<Option target="SWPLAB-A3b"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/src/main.cpp">
+			<Option target="SWPLAB-A3b"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/src/testVM.cpp">
+			<Option target="SWPLAB-A3b"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/src/tokenizer.cpp">
+			<Option target="SWPLAB-A3b"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/src/tokenizer.h">
+			<Option target="SWPLAB-A3b"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/src/utility.h">
+			<Option target="SWPLAB-A3b"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/src/vm.cpp">
+			<Option target="SWPLAB-A3b"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/src/vm.h">
+			<Option target="SWPLAB-A3b"/>
+		</Unit>
+		<Unit filename="D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,3 @@
+D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/CMakeFiles/SWPLAB-A3b.dir
+D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Workspaces/College Workspaces/CLion/SWP/Abgabe/A3b/SWPLAB-A3b/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+"D:\IDEs\JetBrains\CLion 2022.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\SWPLAB-A3b.dir/objects.a
+"D:\IDEs\JetBrains\CLion 2022.2.4\bin\mingw\bin\ar.exe" qc CMakeFiles\SWPLAB-A3b.dir/objects.a @CMakeFiles\SWPLAB-A3b.dir\objects1.rsp
+"D:\IDEs\JetBrains\CLion 2022.2.4\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\SWPLAB-A3b.dir/objects.a -Wl,--no-whole-archive -o SWPLAB-A3b.exe -Wl,--out-implib,libSWPLAB-A3b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SWPLAB-A3b.dir\linklibs.rsp
