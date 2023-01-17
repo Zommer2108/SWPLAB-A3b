@@ -1,0 +1,7 @@
+
+6	cpp:S1003"Remove this using-directive.(ΙΤ³ςÿÿÿÿÿ
+;	cpp:S3642
+"&Replace this "enum" with "enum class".(Ω»€φ
+P	cpp:S1709"/Add the "explicit" keyword to this constructor.(©υÒ±ωÿÿÿÿ8ωθªά0
+K	cpp:S1709'"/Add the "explicit" keyword to this constructor.(μ½β¤8ϊθªά0
+T	cpp:S1238'"8Pass expensive to copy object "c" by reference to const.(μ½β¤8ϊθªά0

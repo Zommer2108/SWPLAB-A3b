@@ -11,7 +11,6 @@ using namespace std;
         PUSH,
         ADD,
         MULTIPLY
-
     } OpCode_t;
 
 
@@ -20,8 +19,10 @@ using namespace std;
         OpCode_t kind;
         int val;
 
+        //Nullary VM code (PLUS, MULT)
         Code(OpCode_t o) : kind(o) {}
 
+        //Unary VM code (Push i)
         Code(OpCode_t o, int i) : kind(o), val(i) {}
     };
 

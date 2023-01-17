@@ -4,13 +4,11 @@
 
 using namespace std;
 
-
 /*
 Methode  : eval
 Klasse : IntExp
 Beschreibung :
     Gibt den Wert des Knotens zurück.
-.
 
 Parameter:
 	keine
@@ -26,7 +24,6 @@ Methode  : pretty
 Klasse : IntExp
 Beschreibung :
     Bearbeitet den aktuellen Knoten einer Ganzzahl Ausdrucks und gibt diesem als ein Stringobjekt zurück.
-.
 
 Parameter:
 	keine
@@ -44,6 +41,12 @@ string IntExp::superPretty() {
     return (this->pretty());
 }
 
+/*
+ * Methode  : translate
+ * Klasse : IntExp
+ * Beschreibung :
+ *    Übersetzt den aktuellen Knoten einer Ganzzahl Ausdrucks in eine Liste von Codeobjekten.
+ */
 vector<Code> IntExp::translate() {
     vector<Code> a;
     a.push_back(newPush(val));
@@ -71,7 +74,7 @@ int PlusExp::eval() { return e1->eval() + e2->eval(); }
 Methode  : pretty
 Klasse : PlusExp
 Beschreibung :
-    Bearbeitet den Aktuellen Knoten einer Additionsausdrucks und gibt diesem als ein Stringobjekt zurück.
+    Bearbeitet den Aktuellen Knoten eines Additionsausdrucks und gibt diesen als ein Stringobjekt zurück.
 	Das erstellte Objekt beinhaltet neben dem eigentlichen Knotten auch alle diesem Knoten zugeordnete Tochterknoten.
 	Der Gesammte Ausdruck wird in dem erstelltten Stringobjekt automatisch mit eine Anfangs sowie endklammer versehen.
 
@@ -82,11 +85,11 @@ Rückgabe:
 	ein Stringobjekt mit der Textrepresentation dieses Knotens sowie allen diesem Knoten zugewisenen Tochterknoten.
 */
 string PlusExp::pretty() {
-    string s("(");                // "klammer öffnen" anhängen
-    s.append(e1->pretty());        // linken Knotten ausführen und das Ergebnis anhängen
-    s.append("+");                // Pluszeichen anhängen
-    s.append(e2->pretty());        // rechten Knotten ausführen und das Ergebnis anhängen
-    s.append(")");                // "klammer zu" anhängen
+    string s("(");              // "klammer öffnen" anhängen
+    s.append(e1->pretty());    // linken Knotten ausführen und das Ergebnis anhängen
+    s.append("+");              // Pluszeichen anhängen
+    s.append(e2->pretty());    // rechten Knotten ausführen und das Ergebnis anhängen
+    s.append(")");              // "klammer zu" anhängen
     return s;
 }
 
@@ -95,12 +98,18 @@ string PlusExp::superPretty() {
     return ("");
 }
 
+/*
+ * Methode  : translate
+ * Klasse : PlusExp
+ * Beschreibung :
+ *    Übersetzt rekursiv den aktuellen Knoten eines Additionsausdrucks in eine Liste von Codeobjekten.
+ */
 vector<Code> PlusExp::translate() {
-    vector<Code> a = e1->translate();
-    vector<Code> b = e2->translate();
-    a.insert(a.end(), b.begin(), b.end());
-    a.push_back(newPlus());
-    return a;
+    vector<Code> a = e1->translate();                       // linken Knoten ausführen und das Ergebnis anhängen
+    vector<Code> b = e2->translate();                       // rechten Knoten ausführen und das Ergebnis anhängen
+    a.insert(a.end(), b.begin(), b.end());  // rechten Knoten anhängen
+    a.push_back(newPlus());                                 // Pluszeichen anhängen
+    return a;                                               // Liste zurückgeben
 }
 
 /*
@@ -146,12 +155,18 @@ string MultExp::superPretty() {
     return ("");
 }
 
+/*
+ * Methode  : translate
+ * Klasse : MultExp
+ * Beschreibung :
+ *    Übersetzt rekursiv den aktuellen Knoten eines Multiplikationsausdrucks in eine Liste von Codeobjekten.
+ */
 vector<Code> MultExp::translate() {
-    vector<Code> a = e1->translate();
-    vector<Code> b = e2->translate();
-    a.insert(a.end(), b.begin(), b.end());
-    a.push_back(newMult());
-    return a;
+    vector<Code> a = e1->translate();                       // linken Knoten ausführen und das Ergebnis anhängen
+    vector<Code> b = e2->translate();                       // rechten Knoten ausführen und das Ergebnis anhängen
+    a.insert(a.end(), b.begin(), b.end());  // rechten Knoten anhängen
+    a.push_back(newMult());                                 // Multiplikationszeichen anhängen
+    return a;                                               // Liste zurückgeben
 }
 
 

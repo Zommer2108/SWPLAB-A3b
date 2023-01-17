@@ -2,6 +2,7 @@
 #include "vm.h"
 #include "utility.h"
 
+
 Code newPush(int i) {
     return Code(PUSH, i);
 }
@@ -13,7 +14,6 @@ Code newPlus() {
 Code newMult() {
     return Code(MULTIPLY);
 }
-
 
 Optional<int> VM::run() {
 

@@ -22,7 +22,7 @@ public:
 class IntExp : public Exp {
     int val;
 public:
-    IntExp(int _val) { val = _val; }
+    IntExp(int _val) {val = _val;}
     int eval();
     string pretty();
     string superPretty();
