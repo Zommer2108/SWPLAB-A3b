@@ -1,32 +1,0 @@
-
-P	cpp:S1235"6'Exp' has virtual functions but non-virtual destructor(¬ç¦ßøÿÿÿÿ
-T	cpp:S1235"9'IntExp' has virtual functions but non-virtual destructor(°íŠu8ÑŒˆÜ0
-[	cpp:S1235 ":'PlusExp' has virtual functions but non-virtual destructor(ÒØ±˜şÿÿÿÿ8ÔŒˆÜ0
-V	cpp:S1235.":'MultExp' has virtual functions but non-virtual destructor(¶ŠšÇ8ÕŒˆÜ0
-W	cpp:S1235"6'Exp' has virtual functions but non-virtual destructor(¬ç¦ßøÿÿÿÿ8œ¶ªˆÜ0
-T	cpp:S1235"9'IntExp' has virtual functions but non-virtual destructor(°íŠu8œ¶ªˆÜ0
-[	cpp:S1235 ":'PlusExp' has virtual functions but non-virtual destructor(ÒØ±˜şÿÿÿÿ8¶ªˆÜ0
-V	cpp:S1235.":'MultExp' has virtual functions but non-virtual destructor(¶ŠšÇ8Ÿ¶ªˆÜ0
-W	cpp:S1235"6'Exp' has virtual functions but non-virtual destructor(¬ç¦ßøÿÿÿÿ8«»ªˆÜ0
-T	cpp:S1235"9'IntExp' has virtual functions but non-virtual destructor(°íŠu8¬»ªˆÜ0
-[	cpp:S1235 ":'PlusExp' has virtual functions but non-virtual destructor(ÒØ±˜şÿÿÿÿ8®»ªˆÜ0
-V	cpp:S1235.":'MultExp' has virtual functions but non-virtual destructor(¶ŠšÇ8¯»ªˆÜ0
-6	cpp:S1003"Remove this using-directive.(ÉÔ³òÿÿÿÿÿ
-€	cpp:S3230"_Do not assign data members in a constructor. Initialize member "val" in an initialization list.(Úİà½ıÿÿÿÿ8‚ˆÜ0
-P	cpp:S1709"/Add the "explicit" keyword to this constructor.(Úİà½ıÿÿÿÿ8‚ˆÜ0
-S	cpp:S3471"2Annotate this function with "override" or "final".(¿ÈşÙùÿÿÿÿ8‚ˆÜ0
-S	cpp:S3471"2Annotate this function with "override" or "final".(äÿÕÈıÿÿÿÿ8‚ˆÜ0
-S	cpp:S3471"2Annotate this function with "override" or "final".(¥ì°›ùÿÿÿÿ8‚ˆÜ0
-S	cpp:S3471"2Annotate this function with "override" or "final".(äÄ€¼ùÿÿÿÿ8ƒˆÜ0
-z	cpp:S3230%"^Do not assign data members in a constructor. Initialize member "e1" in an initialization list.(°‹Œš8ƒˆÜ0
-z	cpp:S3230%"^Do not assign data members in a constructor. Initialize member "e2" in an initialization list.(°‹Œš8ƒˆÜ0
-S	cpp:S3471'"2Annotate this function with "override" or "final".(¿ÈşÙùÿÿÿÿ8ƒˆÜ0
-S	cpp:S3471("2Annotate this function with "override" or "final".(äÿÕÈıÿÿÿÿ8ƒˆÜ0
-S	cpp:S3471)"2Annotate this function with "override" or "final".(¥ì°›ùÿÿÿÿ8ƒˆÜ0
-S	cpp:S3471*"2Annotate this function with "override" or "final".(äÄ€¼ùÿÿÿÿ8ƒˆÜ0
-z	cpp:S32303"^Do not assign data members in a constructor. Initialize member "e1" in an initialization list.(°‹Œš8ƒˆÜ0
-z	cpp:S32303"^Do not assign data members in a constructor. Initialize member "e2" in an initialization list.(°‹Œš8ƒˆÜ0
-S	cpp:S34715"2Annotate this function with "override" or "final".(¿ÈşÙùÿÿÿÿ8„ˆÜ0
-S	cpp:S34716"2Annotate this function with "override" or "final".(äÿÕÈıÿÿÿÿ8„ˆÜ0
-S	cpp:S34717"2Annotate this function with "override" or "final".(¥ì°›ùÿÿÿÿ8„ˆÜ0
-S	cpp:S34718"2Annotate this function with "override" or "final".(äÄ€¼ùÿÿÿÿ8„ˆÜ0

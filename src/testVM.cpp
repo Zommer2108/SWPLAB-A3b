@@ -45,7 +45,6 @@ void testVM() {
 
     auto tree = newPlus(newInt(1),newMult(newInt(2),newInt(3)));    // 1 + 2 * 3
     vector<Code> code = tree->translate();                                             //1 + 2 * 3 = 7
-
     Optional<int> res = VM(code).run();
     showVMRes(res);
 
@@ -69,7 +68,6 @@ void testVM() {
     Optional<int> res4 = VM(code4).run();
     showVMRes(res4);
 }
-
 
 int main() {
 

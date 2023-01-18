@@ -49,8 +49,8 @@ string IntExp::superPretty() {
  */
 vector<Code> IntExp::translate() {
     vector<Code> a;
-    a.push_back(newPush(val));
-    return a;
+    a.push_back(newPush(val));  //Übergibt den Wert des aktuellen Knotens an die Methode newPush und fügt es dem Codeobjekt hinzu.
+    return a;                     //Gibt die Liste von Codeobjekten zurück.
 }
 
 
@@ -164,7 +164,7 @@ string MultExp::superPretty() {
 vector<Code> MultExp::translate() {
     vector<Code> a = e1->translate();                       // linken Knoten ausführen und das Ergebnis anhängen
     vector<Code> b = e2->translate();                       // rechten Knoten ausführen und das Ergebnis anhängen
-    a.insert(a.end(), b.begin(), b.end());  // rechten Knoten anhängen
+    a.insert(a.end(), b.begin(), b.end());  // ausgeführten Knoten anhängen
     a.push_back(newMult());                                 // Multiplikationszeichen anhängen
     return a;                                               // Liste zurückgeben
 }
